@@ -1,7 +1,7 @@
 # MarqueeViewDemo
 This is a small but great control for iOS apps!
 
-![](./../marqueeViewEffect.gif)
+![](https://raw.githubusercontent.com/mayqiyue/MarqueeViewDemo/master/marqueeViewEffect.gif)
 
 # Supported OS & SDK Versions
 
