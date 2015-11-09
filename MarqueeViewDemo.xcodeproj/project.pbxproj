@@ -15,6 +15,7 @@
 		F1B4377B1BF0E188007AC24A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1B437791BF0E188007AC24A /* LaunchScreen.storyboard */; };
 		F1B437861BF0E188007AC24A /* MarqueeViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B437851BF0E188007AC24A /* MarqueeViewDemoTests.m */; };
 		F1B437911BF0E188007AC24A /* MarqueeViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B437901BF0E188007AC24A /* MarqueeViewDemoUITests.m */; };
+		F1B437A11BF0E1F0007AC24A /* MarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B437A01BF0E1F0007AC24A /* MarqueeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F1B4378C1BF0E188007AC24A /* MarqueeViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarqueeViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B437901BF0E188007AC24A /* MarqueeViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarqueeViewDemoUITests.m; sourceTree = "<group>"; };
 		F1B437921BF0E188007AC24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1B4379F1BF0E1F0007AC24A /* MarqueeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarqueeView.h; sourceTree = "<group>"; };
+		F1B437A01BF0E1F0007AC24A /* MarqueeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarqueeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		F1B4376A1BF0E188007AC24A /* MarqueeViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F1B4379E1BF0E1F0007AC24A /* MarqueeView */,
 				F1B4376E1BF0E188007AC24A /* AppDelegate.h */,
 				F1B4376F1BF0E188007AC24A /* AppDelegate.m */,
 				F1B437711BF0E188007AC24A /* ViewController.h */,
@@ -138,6 +142,15 @@
 				F1B437921BF0E188007AC24A /* Info.plist */,
 			);
 			path = MarqueeViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		F1B4379E1BF0E1F0007AC24A /* MarqueeView */ = {
+			isa = PBXGroup;
+			children = (
+				F1B4379F1BF0E1F0007AC24A /* MarqueeView.h */,
+				F1B437A01BF0E1F0007AC24A /* MarqueeView.m */,
+			);
+			path = MarqueeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 				F1B437731BF0E188007AC24A /* ViewController.m in Sources */,
 				F1B437701BF0E188007AC24A /* AppDelegate.m in Sources */,
 				F1B4376D1BF0E188007AC24A /* main.m in Sources */,
+				F1B437A11BF0E1F0007AC24A /* MarqueeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
