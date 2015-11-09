@@ -1,6 +1,8 @@
 # MarqueeViewDemo
 This is a small but great control for iOS apps!
 
+![](./../marqueeViewEffect.gif)
+
 # Supported OS & SDK Versions
 
 Supported: - iOS 6.0+    
